@@ -17,6 +17,14 @@ h1 {
   font-weight: bold;
   font-size: 96px;
 }
+h2 {
+  font-size: 64px;
+}
+p {
+  font-size: 16px;
+  font-family: var(--default-font-heading);
+  line-height: 1.5;
+}
 
 .hero {
   background-color: var(--transparent-background);
@@ -40,6 +48,15 @@ h1 {
   background: var(--button-color);
   border-radius: 4px;
   color: white;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+}
+.outlined-btn {
+  padding: 18px 30px;
+  border: 1px solid var(--button-color);
+  border-radius: 4px;
+  color: var(--button-color);
   font-size: 18px;
   line-height: 27px;
   text-decoration: none;
