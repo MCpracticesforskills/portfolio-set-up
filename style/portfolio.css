@@ -4,9 +4,16 @@
   --large-font-heading: "Playfair Display", serif;
   --default-font-heading: "Poppins", sans-serif;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--large-font-heading);
+}
 
 h1 {
-  font-family: var(--large-font-heading);
   font-weight: bold;
   font-size: 96px;
 }
