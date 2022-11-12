@@ -1,8 +1,39 @@
+:root {
+  --button-color: #6c63ff;
+  --transparent-background: #f9f7fe;
+  --large-font-heading: "Playfair Display", serif;
+  --default-font-heading: "Poppins", sans-serif;
+}
+
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--large-font-heading);
+  font-weight: bold;
+  font-size: 96px;
+}
+
+.hero {
+  background-color: var(--transparent-background);
+  text-align: center;
+  padding: 160px 0;
+}
+.hero p {
+  font-family: var(--large-font-heading);
+  font-size: 36px;
   font-weight: bold;
 }
-p {
-  font-family: "Poppins", sans-serif;
+.hero h2 {
+  font-family: var(--default-font-heading);
   font-weight: normal;
+  font-size: 24px;
+  color: #272142;
+  margin: 50px 0;
+}
+.contact-me-btn {
+  padding: 18px 30px;
+  background: var(--button-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
 }
