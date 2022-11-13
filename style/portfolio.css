@@ -64,8 +64,19 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-@media (max-width: 900) {
-  img {
-    display: none;
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  .hero h2 {
+    font-size: 10px;
+    display: block;
+  }
+  .hero p {
+    font-size: 18px;
   }
 }
