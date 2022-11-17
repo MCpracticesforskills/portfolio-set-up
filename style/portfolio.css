@@ -87,20 +87,20 @@ p {
     text-align: center;
     padding: 60px 0;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 54px;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
 }
-.about-section {
+.content-container {
   padding: 160px 0;
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
