@@ -16,7 +16,7 @@ p {
   font-family: var(--default-font-heading);
 }
 .logo {
-  max-width: 105px;
+  max-height: 55px;
 }
 nav {
   padding: 20px;
@@ -35,12 +35,10 @@ nav a {
   text-decoration: none;
   color: black;
 }
-nav a:hover {
-  color: var(--button-color);
-  transition: all 150ms ease-in-out;
-}
+nav a:hover,
 nav li.active a {
   color: var(--button-color);
+  transition: all 100ms ease-in-out;
 }
 
 .hero {
