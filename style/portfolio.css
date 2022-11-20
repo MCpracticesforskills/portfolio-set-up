@@ -87,9 +87,12 @@ nav li.active a {
   font-size: 64px;
 }
 @media (max-width: 900px) {
+  nav a {
+    font-size: 12px;
+  }
+
   .project-description {
     padding: 0;
-    text-align: center;
   }
   h1 {
     font-size: 38px;
