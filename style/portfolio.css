@@ -15,6 +15,33 @@ h6 {
 p {
   font-family: var(--default-font-heading);
 }
+.logo {
+  max-width: 105px;
+}
+nav {
+  padding: 20px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: var(--button-color);
+  transition: all 150ms ease-in-out;
+}
+nav li.active a {
+  color: var(--button-color);
+}
 
 .hero {
   background-color: var(--transparent-background);
