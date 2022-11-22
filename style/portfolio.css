@@ -47,7 +47,7 @@ nav li.active a {
 .hero {
   background-color: var(--transparent-background);
   text-align: center;
-  padding: 160px 0;
+  padding: 60px 0;
 }
 .hero p {
   font-family: var(--large-font-heading);
@@ -116,7 +116,6 @@ nav li.active a {
   .hero {
     background-color: var(--transparent-background);
     text-align: center;
-    padding: 60px 0;
   }
   .content-container {
     text-align: center;
@@ -130,7 +129,7 @@ nav li.active a {
   font-size: 18px;
 }
 .content-container {
-  padding: 160px 0;
+  padding: 60px 0;
 }
 .content {
   margin: 30px;
