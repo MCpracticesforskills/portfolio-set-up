@@ -1,5 +1,18 @@
-h1 {
-  font-size: 70px;
+:root {
+  --heading: "Playfair Display", serif;
+  --non-heading: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading);
+}
+p {
+  font-family: var(--non-heading);
 }
 .header-images {
   max-width: 760px;
@@ -9,6 +22,6 @@ h1 {
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 140px;
+  height: 350px;
   margin: 40px;
 }
