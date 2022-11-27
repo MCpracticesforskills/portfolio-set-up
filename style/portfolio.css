@@ -3,6 +3,8 @@
   --transparent-background: #f9f7fe;
   --large-font-heading: "Playfair Display", serif;
   --default-font-heading: "Poppins", sans-serif;
+  --do: #85f789;
+  --dont: #fcece7;
 }
 .header-images {
   max-width: 760px;
@@ -100,6 +102,22 @@ nav li.active a {
 }
 .project-description h2 {
   font-size: 64px;
+}
+.dos-and-donts {
+  display: flex;
+  justify-content: space-evenly;
+}
+.do h5 {
+  border: 0.75px solid var(--do);
+  padding: 10px 18px;
+  border-radius: 4px;
+  background-color: var(--do);
+}
+.dont h5 {
+  border: 0.75px solid var(--dont);
+  padding: 10px 18px;
+  border-radius: 4px;
+  background-color: var(--dont);
 }
 @media (max-width: 900px) {
   nav a {
