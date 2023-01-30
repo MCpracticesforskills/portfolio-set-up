@@ -1,0 +1,59 @@
+:root {
+  --button-color: #6c63ff;
+  --transparent-background: #f9f7fe;
+  --large-font-heading: "Playfair Display", serif;
+  --default-font-heading: "Poppins", sans-serif;
+  --do: #85f789;
+  --dont: #fcece7;
+}
+.header-images {
+  max-width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 47%;
+  display: flex;
+  height: 140px;
+  border-radius: 3px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--large-font-heading);
+}
+h4 {
+  font-size: 48px;
+}
+p {
+  font-family: var(--default-font-heading);
+}
+
+.logo {
+  max-height: 55px;
+}
+nav {
+  padding: 20px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--button-color);
+  transition: all 100ms ease-in-out;
+}
