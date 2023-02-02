@@ -29,6 +29,7 @@ h6 {
 .title {
   font-size: 70px;
 }
+
 .content-intro {
   margin-left: 180px;
 }
@@ -40,6 +41,13 @@ h6 {
   padding: 40px 120px;
   border-radius: 3px;
   background-color: var(--logo-background);
+}
+.editor-snippet-container {
+  font-size: 12px;
+  color: grey;
+}
+.editor-image {
+  border-radius: 50%;
 }
 
 p {
