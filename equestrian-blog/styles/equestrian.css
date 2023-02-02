@@ -26,16 +26,6 @@ h5,
 h6 {
   font-family: var(--large-font-heading);
 }
-.author-logo {
-  border-radius: 80%;
-}
-.text-snippet {
-  font-size: 12px;
-  line-height: 1px;
-  color: grey;
-  margin-left: 28px;
-}
-
 .title {
   font-size: 70px;
 }
