@@ -42,9 +42,11 @@ h6 {
   border-radius: 3px;
   background-color: var(--logo-background);
 }
-.editor-snippet-container {
+.editor-snippet {
   font-size: 12px;
   color: grey;
+  display: flex;
+  flex-direction: column;
 }
 .editor-image {
   border-radius: 50%;
