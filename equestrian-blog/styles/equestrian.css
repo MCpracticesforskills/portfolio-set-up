@@ -52,27 +52,6 @@ h6 {
   background-color: var(--logo-background);
 }
 
-table {
-  border: 1px solid grey;
-
-  padding: 20px;
-}
-th {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 40px;
-  border: 0.5px solid grey;
-  text-align: center;
-}
-td {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 40px;
-  border: 0.5px solid grey;
-}
-
 p {
   font-family: var(--default-font-heading);
 }
