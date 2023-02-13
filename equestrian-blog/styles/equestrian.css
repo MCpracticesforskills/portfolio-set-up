@@ -51,7 +51,11 @@ h6 {
   border-radius: 3px;
   background-color: var(--logo-background);
 }
-
+.tip {
+  padding: 10px 14px;
+  background-color: var(--do);
+  border-radius: 3px;
+}
 p {
   font-family: var(--default-font-heading);
 }
