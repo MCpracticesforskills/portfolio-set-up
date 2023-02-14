@@ -51,6 +51,21 @@ h6 {
   border-radius: 3px;
   background-color: var(--logo-background);
 }
+.container {
+  padding-right: 80px;
+}
+.do {
+  padding: 14px 18px;
+  background-color: var(--do);
+  text-align: center;
+  border-radius: 3px;
+}
+.dont {
+  padding: 14px 18px;
+  background-color: var(--dont);
+  text-align: center;
+  border-radius: 3px;
+}
 .tip {
   padding: 10px 14px;
   background-color: var(--do);
