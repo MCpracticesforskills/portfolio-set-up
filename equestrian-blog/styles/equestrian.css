@@ -71,6 +71,9 @@ h6 {
   background-color: var(--do);
   border-radius: 3px;
 }
+.title {
+  padding-top: 50px;
+}
 p {
   font-family: var(--default-font-heading);
 }
