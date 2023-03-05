@@ -54,7 +54,9 @@ h1 {
   margin: 20px 40px;
   padding: 40px 120px;
   border-radius: 3px;
-  background-color: var(--logo-background);
+  background-color: var(--transparent-background);
+  display: flex;
+  justify-content: space-between;
 }
 .container {
   padding-right: 80px;
@@ -99,6 +101,17 @@ p {
 .logo {
   max-height: 55px;
 }
+
+.contact-me-btn {
+  padding: 18px 30px;
+  background: var(--button-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+}
+
 nav {
   padding: 20px;
 }
