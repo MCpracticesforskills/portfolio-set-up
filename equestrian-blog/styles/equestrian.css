@@ -35,14 +35,18 @@ h1 {
   font-size: 90px;
 }
 
-.editor-image {
-  border-radius: 50%;
+.editor-logo {
+  border-radius: 75px;
 }
-.editor-snippet {
-  font-size: 12px;
-  color: grey;
+
+.editorial-info {
   display: flex;
-  flex-direction: column;
+}
+
+.editorial {
+  padding: 3px;
+  flex: 1;
+  text-align: center;
 }
 
 .content-intro {
