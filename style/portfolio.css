@@ -99,6 +99,7 @@ nav li.active a {
 }
 .project-description {
   padding: 120px 60px;
+  background-color: var(--transparent-background);
 }
 .project-description h2 {
   font-size: 64px;
